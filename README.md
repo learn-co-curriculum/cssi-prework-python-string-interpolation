@@ -9,7 +9,7 @@
 String interpolation lets us pass different data into a string, which is faster and more convenient than keeping track of different pieces of string and concatenating them ourselves. There are two ways to do string interpolation: With the `.format` method and with `%`. Let's take a look at the difference.
 
 ### Interpolation with **`.format()`**
-This is the newer version of using variables within string in Python. The method `.format()` is chained to the end of a string. The arguments of `.format()` are substituted into the placeholders of the string. The placeholders start and end with curly brackets. The placeholders can contain a named variable, a number, or nothing at all.
+This is the newer version of using variables within strings in Python. The method `.format()` is chained to the end of a string. The arguments of `.format()` are substituted into the placeholders of the string. The placeholders start and end with curly brackets. The placeholders can contain a named variable, a number, or nothing at all.
 
 #### Keyword Variables
 
@@ -45,9 +45,9 @@ The older way to use variables in strings and uses the % operator.
 The Chicago Black Hawks have 3 NHL championships in 3 years
 ```
 
-Again, you'll note that our the whole string is in quotes. 
+Again, you'll note that our whole string is in quotes. 
 
-The placeholder for the variable is the `%` sign and the and a letter showing the datatype that is being inserted. The entire string is followed by a percent sign and the data that is being inserted, separated by commas. 
+The placeholder for the variable is the `%` sign and a letter showing the datatype that is being inserted. The entire string is followed by a percent sign and the data that is being inserted, separated by commas. 
 
 ```python
 >>> "The %s have %d %s championships in %d years" %("Chicago BlackHawks",3, "NHL", 3)
